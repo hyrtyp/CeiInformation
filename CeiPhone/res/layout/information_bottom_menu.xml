@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/read_report_bottombg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@id/zjzx_botton_1"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/zjzx_botton_1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/zjzx_botton_2"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/zjzx_botton_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/zjzx_botton_3"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/zjzx_botton_3" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/zjzx_botton_4"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/zjzx_botton_4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/read_report_tzgg"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dzb_announcement" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/read_report_grzx"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dzb_person" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/read_report_gywm"
+            style="@style/yangshi_phone_bottom_menu" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/phone_study_about" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>
